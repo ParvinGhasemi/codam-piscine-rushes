@@ -6,7 +6,7 @@
 /*   By: pmohamma <pmohamma@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/02/23 13:26:31 by pmohamma      #+#    #+#                 */
-/*   Updated: 2025/04/22 06:31:53 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/04/22 06:41:16 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,9 @@ void	rush(int x, int y);
 
 int	main(void)
 {
+	rush(1, 1);
+	write(1, "\n", 1);
+	write(1, "\n", 1);
 	rush(1, 5);
 	write(1, "\n", 1);
 	write(1, "\n", 1);
